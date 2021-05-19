@@ -1,0 +1,39 @@
+.button {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 18px;
+  border-radius: 3px;
+}
+.button--primary {
+  color: #FFFFFF;
+  background: #000000;
+}
+.button--primary:hover {
+  background: #80868C;
+}
+.button--primary:active {
+  background: #404346;
+}
+
+.button--secondary {
+  color: #000000;
+  background: #DAE1E5;
+}
+.button--secondary:hover {
+  background: #F8F9FA;
+}
+.button--secondary:active {
+  background: #E9EDEF;
+}
+
+.button--small {
+  padding: 6px 10px;
+}
+.button--large {
+  text-transform: uppercase;
+  padding: 6px 50px;
+}
